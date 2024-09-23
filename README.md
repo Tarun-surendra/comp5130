@@ -1,8 +1,8 @@
 "# comp5130" 
-# **Mechanic Shed - Car Repair Website**
+# **Janatha Garage - Car Repair Website**
 
 ## **Project Overview**
-Welcome to **Mechanic Shed**, a web-based platform designed for car repair shops to offer their services, schedule appointments, and allow customers to request quotes. This project aims to provide a user-friendly interface for both customers and service providers, utilizing MongoDB for efficient data storage and management.
+Welcome to **Janatha Garage**, a web-based platform designed for car repair shops to offer their services, schedule appointments, and allow customers to request quotes. This project aims to provide a user-friendly interface for both customers and service providers, utilizing MongoDB for efficient data storage and management.
 
 ## **Features**
 - **Service Listings**: Browse through available car repair and maintenance services.
@@ -19,12 +19,6 @@ Welcome to **Mechanic Shed**, a web-based platform designed for car repair shops
 - **Version Control**: Git/GitHub
 
 ## **Branch Information**
-- **Main Branch**: Contains the finalized code ready for production.
 - **Development Branch**: Active development branch for ongoing changes and features.
 - **Week 3 Implementation**: This branch includes the foundational structure with appointment booking, MongoDB integration, and basic frontend setup.
 
-## **Setup Instructions**
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/username/mechanic-shed.git
