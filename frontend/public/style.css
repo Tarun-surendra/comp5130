@@ -1,0 +1,156 @@
+ /* Center the banner and apply background color */
+ /* .discount-banner-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     padding: 20px;
+ } */
+ .container {
+     padding-left: 50px;
+     /* Left space */
+     /* padding-right: 50px; */
+     /* Right space */
+     background-color: #f4f4f4;
+ }
+
+ /* Discount banner styling */
+ .discount-banner {
+     color: #fff;
+     background-color: #caea16;
+     /* text-align: center; */
+     padding: 20px;
+     font-size: 1.5em;
+     font-family: Arial, sans-serif;
+     border-radius: 8px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     width: 100%;
+     /* max-width: 600px; */
+     /* Max width for smaller screens */
+ }
+
+ /* Background color for the discount banner */
+ .background-yellow {
+     background-color: #ffeb3b;
+     /* Yellow color */
+ }
+
+ /* CTA button styling */
+ .cta-button {
+     background-color: #fff;
+     color: #ff9800;
+     padding: 10px 20px;
+     text-decoration: none;
+     border-radius: 4px;
+     font-weight: bold;
+     display: inline-block;
+     margin-top: 10px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+     transition: background-color 0.3s ease, color 0.3s ease;
+ }
+
+ .cta-button:hover {
+     background-color: #ff9800;
+     color: #fff;
+ }
+
+ .container {
+     display: flex;
+     height: 200px;
+     /* Full height of the viewport */
+ }
+
+ .buttons {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     /* 3 buttons per row */
+     grid-gap: 10px;
+     /* Adds space between the buttons */
+     width: 75%;
+     /* Takes up 75% of the container */
+     padding: 20px;
+ }
+
+ .side-button {
+     height: 50px;
+     /* Reduce button height */
+     font-size: 16px;
+     /* Adjust the font size as needed */
+     padding: 10px;
+     /* Add some padding for better appearance */
+     cursor: pointer;
+     background-color: #007BFF;
+     /* Button color */
+     color: white;
+     border: none;
+     border-radius: 5px;
+     transition: background-color 0.3s;
+ }
+
+ .side-button:hover {
+     background-color: #0056b3;
+     /* Darker color on hover */
+ }
+
+ .banner {
+     width: 25%;
+     /* Takes up 25% of the container */
+     background-color: #f0f0f0;
+     /* Background color for the banner */
+     display: flex;
+     align-items: center;
+     /* Center content vertically */
+     justify-content: center;
+     /* Center content horizontally */
+     padding: 10px;
+ }
+
+ .content {
+     display: flex;
+     align-items: stretch;
+     /* Makes the image and text the same height */
+ }
+
+ .image {
+     height: 100px;
+     /* Set a fixed height in pixels or another unit */
+     width: 300px;
+     /* Maintain aspect ratio by adjusting the width automatically */
+     max-height: 100%;
+     /* Ensures it won’t exceed the container's height */
+
+ }
+
+ .text {
+     flex: 1;
+     /* Ensures the text takes up the remaining width */
+     margin-left: 20px;
+     /* Adds some space between the image and text */
+ }
+
+ body {
+     display: block;
+     margin: 180px;
+     margin-top: 0px;
+ }
+
+ .custom-img {
+     width: 200px;
+     height: 120px;
+     /* Maintains the aspect ratio */
+     margin-right: 15px;
+ }
+
+ .passage {
+     font-size: 180px;
+     /* Adjust font size as needed */
+ }
+
+ img.float-left {
+     float: left;
+
+     margin-right: 15px;
+     /* Adjust the value as needed */
+     margin-bottom: 10px;
+     /* Optional: add space below the image */
+ }
